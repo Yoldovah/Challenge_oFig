@@ -1,0 +1,122 @@
+body {
+    font-family:'Raleway', sans-serif; ;
+}
+
+h1 {
+    background-color:#c80000;
+    color: white;
+    font-weight: 700;
+    font-size: 3em;
+    padding: 10px 0 15px 15px;
+}
+#titre {
+    font-weight: normal;
+    font-size: 0.4em;
+}
+h2 {
+    background-color:#666;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+#titre2 {
+    font-style: italic;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-content: space-between; */
+    margin: 20px 40px;
+}
+.bloc_figurine {
+    position: relative;
+    margin: 10px 15px;
+    width: 30%;
+    border:#ccc solid 2px ;
+    padding: 10px 10px;
+}
+.bloc_figurine img {
+    max-width: 100%;
+}
+.game {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    text-transform: uppercase;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 0.9em;
+    border-bottom: #ccc solid 2px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 1.3em;
+    padding: 10px 0;
+}
+.main p {
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.bloc_figurine footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    background-color: #c80000;
+    color: white;
+}
+.prix .solde {
+    text-decoration:line-through;
+    font-weight: normal;
+}
+.prix {
+    font-weight: 700;
+}
+footer { 
+    background-color: #666;
+    text-align: center;
+    padding:15px 0;
+    width: 100%;
+    color: white;
+}
+.bloc_figurine:hover { 
+    box-shadow: 0px 0px 10px 10px black;
+    border-radius: 10px;
+    border: none;
+}
+.bloc_figurine footer:hover {
+    background-color: rgb(116, 2, 2);
+}
+#solde_fixe {
+    text-transform: uppercase;
+    position: fixed;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    top: 200px;
+    left: 0px;
+    padding: 15px 5px;
+    writing-mode:vertical-rl ;
+    text-orientation: upright;
+    border-radius: 0px 10px 10px 0;
+}
+.itemsells {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    border: solid #ccc 3px;
+    border-radius: 41px;
+    background-color: #666;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    height: 82px;
+    width: 82px;
+    text-align: center;
+    line-height: 70px;
+}
